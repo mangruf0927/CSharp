@@ -7,9 +7,7 @@ public class Solution
         string[] temp = new string[numbers.Length];
 
         for (int i = 0; i < numbers.Length; i++)
-        {
             temp[i] = numbers[i].ToString();
-        }
 
         Array.Sort(temp, (a, b) => (b + a).CompareTo(a + b));
 
