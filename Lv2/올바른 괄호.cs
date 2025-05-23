@@ -34,7 +34,6 @@ public class Solution
 
 
 // 카운트 변수 이용 -------
-using System;
 
 public class Solution 
 {
